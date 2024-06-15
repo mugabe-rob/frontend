@@ -9,6 +9,7 @@ import menu_8 from './wine.jpg'
 import logo from './logo.svg'
 import search from './search-icon.png'
 import basket_icon from './cart.png'
+import bag from './bag.png'
 
 export const assets = {
     menu_1,
@@ -21,5 +22,6 @@ export const assets = {
     menu_8,
     logo,
     search,
-    basket_icon
+    basket_icon,
+    bag
 }
