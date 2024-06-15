@@ -1,8 +1,8 @@
 .header{
-    height: 34vw;
+    height: 30vw;
     margin: 30px auto;
-    background: url('/2.jpg') no-repeat;
-    background-size: contain;
+    background: url('/food2.jpg') no-repeat;
+    background-size: cover;
     position: relative;
     border-radius: 8px 8px 8px 8px;
 
