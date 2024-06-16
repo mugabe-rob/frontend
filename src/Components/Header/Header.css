@@ -1,7 +1,7 @@
 .header{
     height: 30vw;
     margin: 30px auto;
-    background: url('/food5.jpg') no-repeat;
+    background: url('/fod.png') no-repeat;
     background-size: cover;
     position: relative;
     border-radius: 8px 8px 8px 8px;
@@ -20,19 +20,23 @@
 }
 .header-contents h2{
     font-weight: 500;
-    color: rgb(252, 252, 252);
+    color: rgb(201, 96, 35);
     font-size: max(3.9vw,2px);
 }
 .header-contents p{
     color: aliceblue;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 .header-contents button{
+    padding: 0.5vw 1.5vw;
+    background-color: #ff7b00;
+    color: #fff;
     border: none;
-    color: #f1f1f9;
-    font-weight: 500;
-    padding: 1vw 2.3vw;
-    background: rgb(58, 137, 241);
-    font-size: max(1.5vw, 13px);
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.header-contents button:hover{
+    background-color: #ff9c4a;
 }
