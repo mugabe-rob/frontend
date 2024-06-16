@@ -1,7 +1,7 @@
 .header{
     height: 30vw;
     margin: 30px auto;
-    background: url('/food2.jpg') no-repeat;
+    background: url('/food5.jpg') no-repeat;
     background-size: cover;
     position: relative;
     border-radius: 8px 8px 8px 8px;
@@ -16,4 +16,23 @@
     max-width: 50% ;
     bottom: 10%;
     left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    font-weight: 500;
+    color: rgb(252, 252, 252);
+    font-size: max(3.9vw,2px);
+}
+.header-contents p{
+    color: aliceblue;
+    font-size: 1vw;
+}
+.header-contents button{
+    border: none;
+    color: #f1f1f9;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background: rgb(58, 137, 241);
+    font-size: max(1.5vw, 13px);
+    border-radius: 10px;
 }
