@@ -1,7 +1,7 @@
 .header{
     height: 30vw;
     margin: 30px auto;
-    background: url('/fod.png') no-repeat;
+    background: linear-gradient(rgba(27, 29, 30, 0.7), rgba(150, 211, 231, 0.7)),url('/fod.png') no-repeat;
     background-size: cover;
     position: relative;
     border-radius: 8px 8px 8px 8px;
