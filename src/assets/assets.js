@@ -15,6 +15,14 @@ import china_food from './chinese.jpg'
 import add_icon from './add.png'
 import remove_icon from './remove_icon_red.png'
 import add_icon_black from './add_icon_green.png'
+import linkedin from './linkedin_icon.png'
+import twitter from './twitter_icon.jpeg'
+import instagram from './instagram_icon.png'
+import youtube from './youtube_icon.png'
+import italian_dish1 from './italian_dish1.jpg'
+import italian_dish2 from './italian_dish2.jpg'
+import italian_dish3 from './italian_dish3.jpeg'
+import salad1 from './salad1.jpg'
 
 export const assets = {
     menu_1,
@@ -32,7 +40,11 @@ export const assets = {
     china_food,
     add_icon,
     remove_icon,
-    add_icon_black
+    add_icon_black,
+    linkedin,
+    twitter,
+    instagram,
+    youtube
 }
 export const menu_list = [
     {
@@ -66,7 +78,8 @@ export const menu_list = [
     {
         menu_name: "Chinese Dish",
         menu_image: china_food,
-    }
+    },
+    
 ]
 export const food_list = [
     {
@@ -132,5 +145,37 @@ export const food_list = [
         price: 10,
         description: "Chinese Dish is a classic Chinese dish that is made with beef, broccoli, and a savory sauce. ",
         category: "Chinese Dish"
+    },
+    {
+        id: "10",
+        name: "Italian Dish",
+        image: italian_dish1,
+        price: 15,
+        description: "Italian Dish is a classic Italian dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Italian Dish"
+    },
+    {
+        id: "11",
+        name: "Italian Dish",
+        image: italian_dish2,
+        price: 15,
+        description: "Italian Dish is a classic Italian dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Italian Dish"
+    },
+    {
+        id: "12",
+        name: "Italian Dish",
+        image: italian_dish3,
+        price: 15,
+        description: "Italian Dish is a classic Italian dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Italian Dish"
+    },
+    {
+        id: "13",
+        name: "Salad",
+        image: salad1,
+        price: 10,
+        description: "Salad is a classic Chinese dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "American Salad"
     }
 ]
