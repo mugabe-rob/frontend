@@ -23,7 +23,17 @@ import italian_dish1 from './italian_dish1.jpg'
 import italian_dish2 from './italian_dish2.jpg'
 import italian_dish3 from './italian_dish3.jpeg'
 import salad1 from './salad1.jpg'
-
+import turkish_kebab1 from './turkish_kebab1.jpg'
+import chinese1 from './chinese1.jpeg'
+import beer1 from './beer1.jpg'
+import chicken1 from './chicken1.jpeg'
+import wine1 from './wine1.jpg'
+import chines2 from './chinese2.jpeg'
+import beer2 from './beer2.jpg'
+import turkish_kebab2 from './turkish_kebab2.jpg'
+import app_store from './app_store_image.png'
+import play_store from './google_play_store.png'
+import cross_icon from './cross-icon.png'
 export const assets = {
     menu_1,
     menu_2,
@@ -44,7 +54,10 @@ export const assets = {
     linkedin,
     twitter,
     instagram,
-    youtube
+    youtube,
+    app_store,
+    play_store,
+    cross_icon
 }
 export const menu_list = [
     {
@@ -177,5 +190,69 @@ export const food_list = [
         price: 10,
         description: "Salad is a classic Chinese dish that is made with beef, broccoli, and a savory sauce. ",
         category: "American Salad"
+    },
+    {
+        id: "14",
+        name: "Turkish Kebab",
+        image: turkish_kebab1,
+        price: 15,
+        description: "Turkish Kebab is a classic Turkish dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Turkish Kebab"
+    },
+    {
+        id: "15",
+        name: "Chinese Dish",
+        image: chinese1,
+        price: 10,
+        description: "Chinese Dish is a classic Chinese dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Chinese Beef"
+    },
+    {
+        id: "16",
+        name: "German Beer",
+        image: beer1,
+        price: 5,
+        description: "Beer is a popular alcoholic beverage that is made from fermented grains. ",
+        category: "Beer"
+    },
+    {
+        id: "17",
+        name: "Dried Chicken",
+        image: chicken1,
+        price: 12,
+        description: "Roast Chicken is a classic dish that is made by roasting a whole chicken in the oven. ",
+        category: "Chicken"
+    },
+    {
+        id: "18",
+        name: "French Wine",
+        image: wine1,
+        price: 10,
+        description: "British Cocktail is a classic cocktail that is made with gin, lemon juice, sugar, and soda water.",
+        category: "British Cocktail"
+    },
+    {
+        id: "19",
+        name: "China Dish",
+        image: chines2,
+        price: 10,
+        description: "Chinese Dish is a classic Chinese dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Chinese Dish"
+    },
+    {
+        id: "20",
+        name: "Heineken Beer",
+        image: beer2,
+        price: 5,
+        description: "Beer is a popular alcoholic beverage that is made from fermented grains.",
+        category: "Beer"
+    },
+    {
+        id: "21",
+        name: "Turkish Kebab",
+        image: turkish_kebab2,
+        price: 15,
+        description: "Turkish Kebab is a classic Turkish dish that is made with beef, broccoli, and a savory sauce. ",
+        category: "Turkish Kebab"
     }
 ]

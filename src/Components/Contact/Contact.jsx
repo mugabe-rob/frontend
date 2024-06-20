@@ -36,9 +36,9 @@ const Contact = () => {
 
 
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <div className="contact-col">
-        <h2>Contact us! Today </h2>
+        <h2>Contact us! </h2>
         <p>Have any questions or concerns? Send us a message and we will get back to you as soon as possible.</p>
         <ul>
           <br /><br /><br /><br /><br /><br />

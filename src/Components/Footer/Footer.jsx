@@ -18,7 +18,7 @@ const Footer = () => {
                     </p>
                 </p>
                 <div className="footer-social-icons">
-                    <img src={assets.linkedin} alt="" />
+                    <img src={assets.linkedin}  alt="" />
                     <img src={assets.twitter} alt="" />
                     <img src={assets.instagram} alt="" />
                     <img src={assets.youtube} alt="" />
@@ -43,7 +43,7 @@ const Footer = () => {
             
         </div>
       <hr />
-      <p className='footer-copyright'>Copyright 2024. All Rights reserved</p>
+      <p>&copy; Copyright 2024.All Rights reserved</p>
     </div>
   )
 }
