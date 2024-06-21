@@ -2,7 +2,7 @@
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">Fast Food</h1>
+    <h1 align="center">FRONTEND</h1>
 </p>
 <p align="center">
     <em>HTTP error 401 for prompt `slogan`</em>
@@ -64,15 +64,37 @@ HTTP error 401 for prompt `features`
     ├── package-lock.json
     ├── package.json
     ├── public
-    │   ├── 2.jpg
+    │   ├── fod.png
+    │   ├── food.png
     │   └── vite.svg
     ├── src
     │   ├── App.css
     │   ├── App.jsx
     │   ├── Components
+    │   │   ├── AppDownload
+    │   │   │   ├── AppDownload.css
+    │   │   │   └── AppDownload.jsx
+    │   │   ├── Contact
+    │   │   │   ├── Contact.css
+    │   │   │   └── Contact.jsx
+    │   │   ├── ExploreMenu
+    │   │   │   ├── ExploreMenu.css
+    │   │   │   └── ExploreMenu.jsx
+    │   │   ├── FoodDisplay
+    │   │   │   ├── FoodDisplay.css
+    │   │   │   └── FoodDisplay.jsx
+    │   │   ├── FoodItem
+    │   │   │   ├── FoodItem.css
+    │   │   │   └── FoodItem.jsx
+    │   │   ├── Footer
+    │   │   │   ├── Footer.css
+    │   │   │   └── Footer.jsx
     │   │   ├── Header
     │   │   │   ├── Header.css
     │   │   │   └── Header.jsx
+    │   │   ├── LoginPopup
+    │   │   │   ├── LoginPopup.css
+    │   │   │   └── LoginPopup.jsx
     │   │   └── Navbar
     │   │       ├── Navbar.css
     │   │       └── Navbar.jsx
@@ -90,20 +112,75 @@ HTTP error 401 for prompt `features`
     │   │   ├── 1.jpg
     │   │   ├── 2.jpg
     │   │   ├── 3.jpg
-    │   │   ├── 4.jpg
+    │   │   ├── Gmail - Africa's Talking Hackathon Event.pdf
+    │   │   ├── add.png
+    │   │   ├── add_icon_black.png
+    │   │   ├── add_icon_green.png
+    │   │   ├── app_store_image.png
     │   │   ├── assets.js
     │   │   ├── bag.png
     │   │   ├── beef.jpg
+    │   │   ├── beef1.jpg
+    │   │   ├── beef2.jpeg
+    │   │   ├── beef3.jpg
+    │   │   ├── beef4.jpg
     │   │   ├── beer.jpg
+    │   │   ├── beer1.jpg
+    │   │   ├── beer2.jpg
+    │   │   ├── beer3.jpg
+    │   │   ├── beer4.jpeg
     │   │   ├── cart.png
     │   │   ├── chicken.jpg
+    │   │   ├── chicken1.jpeg
+    │   │   ├── chicken2.png
+    │   │   ├── chicken3.jpg
+    │   │   ├── chicken4.jpg
+    │   │   ├── chinese.jpg
+    │   │   ├── chinese1.jpeg
+    │   │   ├── chinese2.jpeg
+    │   │   ├── chinese3.jpeg
+    │   │   ├── chinese4.jpeg
+    │   │   ├── cross-icon.png
+    │   │   ├── dark_arrow.png
     │   │   ├── fish.jpg
+    │   │   ├── google_play_store.png
+    │   │   ├── instagram_icon.png
+    │   │   ├── italian_dish1.jpg
+    │   │   ├── italian_dish2.jpg
+    │   │   ├── italian_dish3.jpeg
+    │   │   ├── italian_dish4.jpg
+    │   │   ├── linkedin_icon.png
+    │   │   ├── location-icon.png
     │   │   ├── logo.svg
+    │   │   ├── mail-icon.png
+    │   │   ├── message_icon.png
+    │   │   ├── phone-icon.png
+    │   │   ├── rating_icon.png
+    │   │   ├── rating_stars.jpg
     │   │   ├── react.svg
+    │   │   ├── remove_icon.png
+    │   │   ├── remove_icon_red.png
     │   │   ├── salad.jpg
+    │   │   ├── salad1.jpg
+    │   │   ├── salad2.jpg
+    │   │   ├── salad3.jpg
+    │   │   ├── salad4.jpg
     │   │   ├── salads.jpeg
     │   │   ├── search-icon.png
-    │   │   └── wine.jpg
+    │   │   ├── turkish_kebab1.jpg
+    │   │   ├── turkish_kebab2.jpg
+    │   │   ├── turkish_kebab3.jpg
+    │   │   ├── turkish_kebab4.jpg
+    │   │   ├── twitter_icon.jpeg
+    │   │   ├── twitter_icon.png
+    │   │   ├── wine.jpg
+    │   │   ├── wine1.jpg
+    │   │   ├── wine2.jpg
+    │   │   ├── wine3.jpg
+    │   │   ├── wine4.jpeg
+    │   │   └── youtube_icon.png
+    │   ├── context
+    │   │   └── StoreContext.jsx
     │   ├── index.css
     │   └── main.jsx
     └── vite.config.js
@@ -135,6 +212,15 @@ HTTP error 401 for prompt `features`
 
 </details>
 
+<details closed><summary>src.Components.ExploreMenu</summary>
+
+| File                                                                                                             | Summary                                                                |
+| ---                                                                                                              | ---                                                                    |
+| [ExploreMenu.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/ExploreMenu/ExploreMenu.jsx) | HTTP error 401 for prompt `src/Components/ExploreMenu/ExploreMenu.jsx` |
+| [ExploreMenu.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/ExploreMenu/ExploreMenu.css) | HTTP error 401 for prompt `src/Components/ExploreMenu/ExploreMenu.css` |
+
+</details>
+
 <details closed><summary>src.Components.Navbar</summary>
 
 | File                                                                                              | Summary                                                      |
@@ -150,6 +236,60 @@ HTTP error 401 for prompt `features`
 | ---                                                                                               | ---                                                          |
 | [Header.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Header/Header.css) | HTTP error 401 for prompt `src/Components/Header/Header.css` |
 | [Header.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Header/Header.jsx) | HTTP error 401 for prompt `src/Components/Header/Header.jsx` |
+
+</details>
+
+<details closed><summary>src.Components.FoodDisplay</summary>
+
+| File                                                                                                             | Summary                                                                |
+| ---                                                                                                              | ---                                                                    |
+| [FoodDisplay.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/FoodDisplay/FoodDisplay.jsx) | HTTP error 401 for prompt `src/Components/FoodDisplay/FoodDisplay.jsx` |
+| [FoodDisplay.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/FoodDisplay/FoodDisplay.css) | HTTP error 401 for prompt `src/Components/FoodDisplay/FoodDisplay.css` |
+
+</details>
+
+<details closed><summary>src.Components.AppDownload</summary>
+
+| File                                                                                                             | Summary                                                                |
+| ---                                                                                                              | ---                                                                    |
+| [AppDownload.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/AppDownload/AppDownload.css) | HTTP error 401 for prompt `src/Components/AppDownload/AppDownload.css` |
+| [AppDownload.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/AppDownload/AppDownload.jsx) | HTTP error 401 for prompt `src/Components/AppDownload/AppDownload.jsx` |
+
+</details>
+
+<details closed><summary>src.Components.LoginPopup</summary>
+
+| File                                                                                                          | Summary                                                              |
+| ---                                                                                                           | ---                                                                  |
+| [LoginPopup.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/LoginPopup/LoginPopup.jsx) | HTTP error 401 for prompt `src/Components/LoginPopup/LoginPopup.jsx` |
+| [LoginPopup.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/LoginPopup/LoginPopup.css) | HTTP error 401 for prompt `src/Components/LoginPopup/LoginPopup.css` |
+
+</details>
+
+<details closed><summary>src.Components.Footer</summary>
+
+| File                                                                                              | Summary                                                      |
+| ---                                                                                               | ---                                                          |
+| [Footer.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Footer/Footer.jsx) | HTTP error 401 for prompt `src/Components/Footer/Footer.jsx` |
+| [Footer.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Footer/Footer.css) | HTTP error 401 for prompt `src/Components/Footer/Footer.css` |
+
+</details>
+
+<details closed><summary>src.Components.Contact</summary>
+
+| File                                                                                                 | Summary                                                        |
+| ---                                                                                                  | ---                                                            |
+| [Contact.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Contact/Contact.css) | HTTP error 401 for prompt `src/Components/Contact/Contact.css` |
+| [Contact.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/Contact/Contact.jsx) | HTTP error 401 for prompt `src/Components/Contact/Contact.jsx` |
+
+</details>
+
+<details closed><summary>src.Components.FoodItem</summary>
+
+| File                                                                                                    | Summary                                                          |
+| ---                                                                                                     | ---                                                              |
+| [FoodItem.css](https://github.com/mugabe-rob/frontend/blob/master/src/Components/FoodItem/FoodItem.css) | HTTP error 401 for prompt `src/Components/FoodItem/FoodItem.css` |
+| [FoodItem.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/Components/FoodItem/FoodItem.jsx) | HTTP error 401 for prompt `src/Components/FoodItem/FoodItem.jsx` |
 
 </details>
 
@@ -180,6 +320,14 @@ HTTP error 401 for prompt `features`
 
 </details>
 
+<details closed><summary>src.context</summary>
+
+| File                                                                                                | Summary                                                  |
+| ---                                                                                                 | ---                                                      |
+| [StoreContext.jsx](https://github.com/mugabe-rob/frontend/blob/master/src/context/StoreContext.jsx) | HTTP error 401 for prompt `src/context/StoreContext.jsx` |
+
+</details>
+
 ---
 
 ##  Getting Started
@@ -188,7 +336,7 @@ HTTP error 401 for prompt `features`
 
 Ensure you have the following dependencies installed on your system:
 
-* **CSS**: `version x.y.z`
+* **JavaScript**: `version x.y.z`
 
 ###  Installation
 
@@ -207,7 +355,7 @@ cd frontend
 3. Install the dependencies:
 
 ```sh
-> INSERT-INSTALL-COMMANDS
+npm install
 ```
 
 ###  Running frontend
@@ -215,7 +363,7 @@ cd frontend
 Use the following command to run frontend:
 
 ```sh
-> INSERT-RUN-COMMANDS
+node app.js
 ```
 
 ###  Tests
@@ -223,7 +371,7 @@ Use the following command to run frontend:
 To execute tests, run:
 
 ```sh
-> INSERT-TEST-COMMANDS
+npm test
 ```
 
 ---
