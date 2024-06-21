@@ -44,14 +44,26 @@
 ---
 
 ##  Overview
+This project is a web-based platform designed to facilitate easy online food ordering for people living in Rwanda. The platform aims to streamline the process of ordering food, reducing transportation costs and saving time for users. Built with modern web technologies, this platform ensures a smooth and efficient user experience.
 
-HTTP error 401 for prompt `overview`
+## Technologies Used
+- **Frontend:** TypeScript, React, Tailwind CSS
+- **Backend:** MongoDB
+
+The combination of these technologies ensures a responsive, fast, and scalable application that meets the needs of users and food vendors alike.
+
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+- **User-Friendly Interface:** Intuitive and easy-to-navigate interface built with React and Tailwind CSS.
+- **Efficient Food Ordering:** Simplifies the process of ordering food online, allowing users to place orders quickly and conveniently.
+- **Cost Reduction:** Helps users save on transportation costs by offering a centralized platform for food ordering.
+- **Time-Saving:** Reduces the time spent on ordering food through streamlined processes and fast load times.
+- **Responsive Design:** Ensures a seamless experience across various devices, including desktops, tablets, and mobile phones.
+- **Secure Data Management:** Utilizes MongoDB for secure and efficient handling of user data and order information.
+
 
 ---
 
